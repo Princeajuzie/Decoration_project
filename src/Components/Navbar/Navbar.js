@@ -64,7 +64,7 @@ export function NavbarWithMegaMenu() {
     // media query
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
+      () => window.innerWidth >= 768 && setOpenNav(false)
     );
   }, []);
 
