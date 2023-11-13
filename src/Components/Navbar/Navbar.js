@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Logo from "@/assets/svgs/Logo.svg"
+import Logo from "@/assets/svgs/Logo.svg";
 import Image from "next/image";
 import {
   Navbar,
@@ -29,6 +29,7 @@ function NavList() {
     { text: "contact", id: 3 },
     { text: "services", id: 4 },
     { text: "gallery", id: 5 },
+    { text: "pricing", id: 6},
   ];
 
   return (
@@ -58,8 +59,9 @@ function NavList() {
 
 export function NavbarWithMegaMenu() {
   const [openNav, setOpenNav] = useState(false);
-   const contact = " Contact Us"
+  const contact = "Book Appointment";
   useEffect(() => {
+    // media query
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
@@ -67,22 +69,22 @@ export function NavbarWithMegaMenu() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-full rounded-none px-4 py-2">
+    <Navbar className="mx-auto rounded-none px-8 py-2 sticky top-0  z-[999] bg-white" fullWidth={true} blurred={false}>
       <div className="flex items-center justify-between text-blue-gray-900">
+    
         <Typography
           as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5 lg:ml-2"
         >
-          Material Tailwind
+              <Image src={Logo} alt="" width={120}/>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
         </div>
         <div className="hidden gap-2 lg:flex">
-         <CustomButton Value={contact} />
-   
+          <CustomButton Value={contact} />
         </div>
         <IconButton
           variant="text"

@@ -1,5 +1,5 @@
 "use client"
-import { NavbarWithMegaMenu } from "@/Components/Navbar"
+import { NavbarWithMegaMenu } from "@/Components/Navbar/Navbar"
 
 export default function Page() {
   return (

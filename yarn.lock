@@ -4577,6 +4577,13 @@ tabbable@^6.0.1:
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-6.2.0.tgz#732fb62bc0175cfcec257330be187dcfba1f3b97"
   integrity sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==
 
+tailgrids@^2.0.3, tailgrids@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tailgrids/-/tailgrids-2.1.0.tgz#166709fdbc5cfaf59d1df5d311c4a51efd9d0557"
+  integrity sha512-NMlTNd8e+mzCCOFymfKGhS5NglGmCnpMQdzhZ1epSBKKWHRQK8fA1PMNuIQvHP/MIJOeX8923YiAlHj78s9giQ==
+  dependencies:
+    tailgrids "^2.0.3"
+
 tailwind-merge@1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-1.8.1.tgz#0e56c8afbab2491f72e06381043ffec8b720ba04"

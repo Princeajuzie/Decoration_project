@@ -20,6 +20,7 @@ module.exports = withMT({
 		removeThemes: ["whatever","dark" ],
 	},
   plugins: [
-    require('rippleui'),
+    require(['rippleui', "tailgrids"]),
+   
   ],
 })
