@@ -4,7 +4,7 @@ export default function AllCarousel() {
   return (
         <div className=" relative  " style={{ height: 'calc(100vh - 9.625vh)' }}>
     <div className="absolute z-30 top-0 bg-black/50 h-[inherit] w-full">
-
+   <button className="h-[20px] w-[full] py-4 bg-cyan-200 rounded-lg px-8 flex items-center justify-center text-center">Hello world</button>
       </div>
       <Carousel
      
