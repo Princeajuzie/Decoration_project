@@ -1,4 +1,4 @@
-"use client"
+
 import { NavbarWithMegaMenu } from "@/Components/Navbar/Navbar"
 import AllCarousel from "@/Components/carousel/Allcarousel"
 export default function Home() {
