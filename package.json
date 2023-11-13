@@ -1,5 +1,5 @@
 {
-  "name": "decoration_project",
+  "name": "oravent",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +11,13 @@
     "test:watch": "jest --watchAll"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.4",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "rippleui": "^1.12.1"
+    "rippleui": "^1.12.1",
+    "zustand": "^4.4.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
